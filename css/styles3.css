@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+html{
+    width:1400px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.sidebar{
+    background-image:url("../assets/images/bg-sidebar-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90.3vh;
+    width:22.9vw;
+    position:relative;
+    left:30px;
+    top:35px;
+}
+.btn1{
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:30px;
+}
+.btn2{
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:120px;
+    left:30px;
+}
+.btn3{
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:190px;
+    left:30px;
+}
+.btn4{
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:260px;
+    left:30px;
+}
+.sidebar-text1{
+    position:absolute;
+    top:57px;
+    left:100px;
+    line-height: 0.5;
+    color:hsl(231, 100%, 99%);
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+.step{
+    color:hsl(228, 100%, 84%);
+    font-weight: lighter;
+}
+.sidebar-text2{
+    position:absolute;
+    top:127px;
+    left:100px;
+    line-height: 0.5;
+    color:hsl(231, 100%, 99%);
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+.sidebar-text3{
+    position:absolute;
+    top:197px;
+    left:100px;
+    line-height: 0.5;
+    color:hsl(231, 100%, 99%);
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+.sidebar-text4{
+    position:absolute;
+    top:267px;
+    left:100px;
+    line-height: 0.5;
+    color:hsl(231, 100%, 99%);
+    font-weight:bolder;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background-color:hsl(206, 94%, 87%);
+}
+.clicked{
+    background-color:hsl(206, 94%, 87%);
+    color: hsl(243, 100%, 62%);
+    font-weight: bolder;
+}
+
+.Plan{
+    position:relative;
+    top:85px;
+    left:20px;
+    letter-spacing: 1.5px;
+    color:hsl(213, 96%, 18%);
+}
+
+.Online{
+    position:relative;
+    top:110px;
+    left:20px;
+    border:solid 1px;
+    padding-left:20px;    
+    width: 524px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-color: hsl(224, 24%, 91%);
+}
+.Storage{
+    position:relative;
+    top:140px;
+    left:20px;
+    border:solid 1px;
+    padding-left:20px;    
+    width: 524px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-color: hsl(224, 24%, 91%);
+}
+.profile{
+    position:relative;
+    top:170px;
+    left:20px;
+    border:solid 1px;
+    padding-left:20px;    
+    width: 524px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-color: hsl(224, 24%, 91%);
+}
+.checkbox{
+    width:20px;
+    height:20px;
+}
+
+.profile:hover,.Storage:hover,.Online:hover{
+    border-color: hsl(243, 100%, 62%);
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked{
+    accent-color: hsl(243, 100%, 62%) !important;
+}
+
+.textonline{
+    display:inline-block;
+    position:relative;
+    top:10px;
+    left:30px;
+    line-height: 1.6;
+}
+
+.price1{
+    display:inline-block;
+    position:relative;
+    top:-5px;
+    left:150px;
+    line-height: 1.6;
+    color:hsl(243, 100%, 62%);
+}
+.price2{
+    display:inline-block;
+    position:relative;
+    top:-5px;
+    left:175px;
+    line-height: 1.6;
+    color:hsl(243, 100%, 62%);
+}
+.price3{
+    display:inline-block;
+    position:relative;
+    top:-5px;
+    left:140px;
+    line-height: 1.6;
+    color:hsl(243, 100%, 62%);
+}
+.heading{
+    color: hsl(213, 96%, 23%);
+}
+.description{
+    color:hsl(229, 24%, 70%);
+}
+.chosen{
+    border-color: hsl(243, 100%, 62%);
+    background-color: rgb(246, 245, 248);;
+}
+
+.next{
+    position:relative;
+    top:300px;
+    left:415px;
+    width:126px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.next:hover{
+    background-color: hsl(213, 89%, 40%);
+    cursor:pointer;
+}
+
+.checkbox:hover{
+    cursor: pointer;
+}
+
+.prev{
+    color:hsl(180, 1%, 61%);
+    position:relative;
+    top:300px;
+    left:-110px;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration:none;
+}
+.prev:hover{
+    color:hsl(213, 96%, 18%);
+    cursor:pointer;
+}
